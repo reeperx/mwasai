@@ -146,6 +146,15 @@ export const navLinks = [
       config: { fillBackground: true },
       icon: "stars.svg",
     },
+    summary: {
+      type: "summary",
+      title: "PDF Summary",
+      subTitle: "AI summarization of your PDF file",
+      config: {
+        summary: { prompt: "Please provide a summary for the pdf" },
+      },
+      icon: "pdf.svg",
+    },
     remove: {
       type: "remove",
       title: "Object Remove",
